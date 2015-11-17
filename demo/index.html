@@ -1,0 +1,32 @@
+<!DOCTYPE html >
+  <html>
+    <head>
+      <title>检测浏览器是否支持WebP</title>
+      <meta charset="utf-8"/>
+      <style type="text/css">
+
+      </style>
+    </head>
+    <body>
+    <h1>检测浏览器是否支持WebP</h1>
+    <h2>您可以使用此工具检测用户的浏览器是否支持WebP，在回调函数做出相应的动作</h2>
+    <p>WebP is a new image format that provides lossless and lossy compression for images on the web. WebP lossless images are 26% smaller in size compared to PNGs. WebP lossy images are 25-34% smaller in size compared to JPEG images at equivalent SSIM index. WebP supports lossless transparency (also known as alpha channel) with just 22% additional bytes. Transparency is also supported with lossy compression and typically provides 3x smaller file sizes compared to PNG when lossy compression is acceptable for the red/green/blue color channels.</p>
+    <p>WebP是提供无损和有损压缩在网络上图像的新图像格式,WebP无损影像尺寸较PNG格式小26％,有损影像尺寸较JPEG图像相比小25-34％。</p>
+    <p>Webmasters and web developers can use the WebP image format to create smaller and richer images that can help make the web faster.</p>
+    <p>网站管理员和网络开发人员可以使用的WebP图像格式，以创建更小和更丰富的图像，可以帮助网络更快。</p>
+    <div id="webpBtn">您的浏览器支持webp吗？<span id="feature"></span></div>
+    
+      <script type="text/javascript" src="../webptester.js?v=0.0.10"></script>
+      <script>
+          function callback(feature, value){
+              var $containter = document.getElementById('feature');
+              $containter.innerHTML = value;
+              $containter.style.color = "red"; 
+              console.log(callback);
+          };
+          check_webp_feature('lossy', callback);
+      </script>
+      
+    </body>
+  </html>
+
