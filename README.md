@@ -10,7 +10,11 @@ WebP是提供无损和有损压缩在网络上图像的新图像格式,WebP无�
 	callback表示判断后执行的回调方法。
 
 ##例子：	
+	// 是否支持有损压缩的webp
 	check_webp_feature('lossy', callback);
+	// 是否支持无损压缩的webp
 	check_webp_feature('lossless', callback);
+	// 是否支持有alpha的webp
 	check_webp_feature('alpha', callback);
+	// 是否支持有animation的webp
 	check_webp_feature('animation', callback);
