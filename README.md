@@ -1,7 +1,11 @@
 # webptester
 The tool can test compatibility user‘s browser display webp image.
 
-WebP是提供无损和有损压缩在网络上图像的新图像格式,WebP无损影像尺寸较PNG格式小26％,有损影像尺寸较JPEG图像相比小25-34％。
+WebP（发音 weppy），是一种支持有损压缩和无损压缩的图片文件格式，派生自图像编码格式 VP8。根据 Google 的测试，无损压缩后的 WebP 比 PNG 文件少了 45％ 的文件大小，即使这些 PNG 文件经过其他压缩工具压缩之后，WebP 还是可以减少 28％ 的文件大小。
+
+因为webp在一些浏览器上不能使用，所以出现了该工具来判断浏览器支持webp的兼容性，做出正确的动作。
+
+webp官方地址 https://developers.google.com/speed/webp/
 
 ##使用方式：
 
