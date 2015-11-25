@@ -1,6 +1,8 @@
-// check_webp_feature:
-// 'feature' can be one of 'lossy', 'lossless', 'alpha' or 'animation'.
-// 'callback(feature, result)' will be passed back the detection result (in an asynchronous way!)
+/** 检查webp的一些特性:
+ *  无损(lossless)和有损(lossy)的压缩模式、Alpha 透明(alpha)以及动画(animation)的特性
+ * 'feature' can be one of 'lossy', 'lossless', 'alpha' or 'animation'.
+ * 'callback(feature, result)' will be passed back the detection result (in an asynchronous way!)
+ **/
 function check_webp_feature(feature, callback) {
     var kTestImages = {
         lossy: "UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
