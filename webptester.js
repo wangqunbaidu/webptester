@@ -1,5 +1,6 @@
 /** 检查webp的一些特性:
  *  无损(lossless)和有损(lossy)的压缩模式、Alpha 透明(alpha)以及动画(animation)的特性
+ *  回调方法callback(feature, result)在探测后执行
  * 'feature' can be one of 'lossy', 'lossless', 'alpha' or 'animation'.
  * 'callback(feature, result)' will be passed back the detection result (in an asynchronous way!)
  **/
