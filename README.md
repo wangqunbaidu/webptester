@@ -13,7 +13,7 @@ webp官方地址 https://developers.google.com/speed/webp/
 
 	引入webptester.js，根据特性参数，判断相关特性，
 	其中feature传入'lossy', 'lossless', 'alpha' or 'animation'中得一个特性。
-	callback表示判断后执行的回调方法，注意一定要在回调中坐webp图片的操作。
+	callback表示判断后执行的回调方法，考虑到对webp支持的判断，注意一定要在回调中坐webp图片的操作。
 
 ##例子：	
 	// 是否支持有损压缩的webp
